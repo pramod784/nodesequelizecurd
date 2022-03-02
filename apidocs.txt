@@ -1,0 +1,26 @@
+POST : http://localhost:3002/users/add
+Input : {
+    "name":"pramod Yewale",
+    "email":"yewalepramod50@gmail.com",
+    "phone":9423777503
+}
+
+
+
+POST http://localhost:3002/company/add
+INPUT: {
+    "name":"Spring CT",
+    "city":"Pune"
+}
+
+
+POST : http://localhost:3002/users/assign/company
+Input : {
+    "userId":"1",
+    "companyId":"1"
+}
+
+GET : http://localhost:3002/users/list
+Input : NA 
+
+users/list Pending
